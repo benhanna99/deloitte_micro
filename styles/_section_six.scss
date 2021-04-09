@@ -1,4 +1,4 @@
-#section6 {
+.section6 {
     hr {
         border: none!important;
     }
@@ -85,46 +85,46 @@
 }
 
 @media (max-width: 1920px) {
-    #section6 .content.left .title {
+   .section6 .content.left .title {
         font-size: 44px;
     }
-    #section6 .content .title {
+   .section6 .content .title {
         font-size: 44px;
     }
 }
 
 @media (max-width: 1250px) {
-    #section6 .posts .item {
+   .section6 .posts .item {
         max-width: 100%!important;
         display: block!important;
     }
     
-    #section6 .posts .item .top {
+   .section6 .posts .item .top {
         display: block!important;
     } 
     
-    #section6 .posts .item .logo {
+   .section6 .posts .item .logo {
         display: none;
     }
 }
 
 @media (max-width: 1200px) {
-    #section6 .posts .item {
+   .section6 .posts .item {
         margin-bottom: 1rem;
     }
     
-    #section6 .posts .item .top h4.heading {
+   .section6 .posts .item .top h4.heading {
         font-size: 16px;
     }
 
-    #section6 .posts .item .middle p.text {
+   .section6 .posts .item .middle p.text {
         line-height: 1.5;
         font-size: 16px;
         }
     }
 
 @media (max-width: 992px) {
-    #section6 .posts .item:first-child {
+   .section6 .posts .item:first-child {
         max-width: 100%;
         display: block;
     }

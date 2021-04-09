@@ -1,0 +1,162 @@
+@media (max-width: 768px) {
+    p {
+        font-size: 16px
+    }
+    .navbar {
+        padding-top: 1em;
+    }
+
+    .navbar .navbar-brand .logo {
+     width: 120px;
+    }
+    
+    .section1 .content.right .logo {
+        padding-bottom: unset;
+        width: 100px;
+    }
+
+    .section0::after {
+        content: ""; 
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #000;
+        opacity: .7;
+        overflow: hidden;
+    }
+
+    .section0 .timer .days {
+        border-bottom: 1px solid #00E1FF;
+    }
+
+    .section0 .content {
+        margin-top: -7em;
+    }
+
+    .section0 .timer .register {
+        font-size: 20px;
+        text-align: center;
+        padding: 1em;
+        width: 100%;
+    }
+
+    .section0 .timer .register br  {
+        display: none;
+    }
+
+    .section1 .content.left form .form-group input {
+        height: unset;
+    }
+
+    .section1 .content.left .title {
+        font-size: 24px;
+    }
+
+    .section2 .content.left .title {
+        font-size: 24px;
+    }
+
+    .section3 .content.left .title {
+        font-size: 24px;
+    }
+
+    .section4 .content.left .title {
+        font-size: 24px;
+    }
+
+    .section5 .content.left .title {
+        font-size: 24px;
+    }
+
+    .section6 .content .title {
+        font-size: 24px;
+    }
+
+    .section6 .content.left .title {
+        font-size: 24px;
+    }
+
+    .section7 .content .title {
+        font-size: 24px;
+    }
+    
+    .section8 .content .title {
+        font-size: 24px;
+    }
+
+    .section1 .content.left .text {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    .section1 .content.right {
+        align-items: flex-start;
+    }
+    .section1 .content.right .title {
+        font-size: 24px;
+        text-align: left!important;
+    }
+    .section1 .content.right .date {
+        font-size: 24px;
+        text-align: left!important;
+    }
+    .section1 .content.right {
+        margin-top: unset;
+        padding-top: 3rem;
+    }   
+    .section1 .content.left form .btn {
+        float: unset;
+        width: 100%;
+    }
+    .section1 .content.right .logo {
+        padding-bottom: unset;
+    }
+    .section1 .content.left form .form-group {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 1rem;
+    } 
+    .section1 .content.left form .form-group label {
+        font-size: 16px;
+    }   
+
+    .section1 .content.left form .btn {
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .section3 .content.right {
+        display: none;
+    }
+    .section7 .content .text { 
+        font-size: 16px;
+    }
+    .section7 .content .social a {
+        width: 40px;
+        height: 40px;
+    }
+
+    .section7 .content .social a i {
+        font-size: 20px;
+    }
+
+    .section7 .content .text-three {
+        font-size: 20px;
+    }
+    .copyright p {
+        font-size: 14px;
+    }
+    .copyright .link {
+        font-size: 14px;
+    }
+
+    .section6 .posts .item .middle p.text {
+        line-height: 1.5;
+        font-size: 14px;
+    }
+
+    .section6 .content--center {
+        align-items: center;
+    }
+}
