@@ -1,4 +1,4 @@
-#section0  {
+.section0  {
     .content {
         .sub-title {
             text-align: left;
@@ -119,7 +119,7 @@
 
 @media (max-width: 1920px) {
 
-    #section0  {
+    .section0  {
         .content {
             .sub-title {
                 font-size: 34px;
@@ -190,26 +190,26 @@
 
 
 @media (max-width: 1250px) {
-    #section0 .content .sub-title {
+    .section0 .content .sub-title {
         font-size: 24px;
     }
-    #section0 .content .title {
+    .section0 .content .title {
         font-size: 55px;
     }
-    #section0 .content .date {
+    .section0 .content .date {
         font-size: 55px;
     }
-    #section0 .timer .title {
+    .section0 .timer .title {
         font-size: 16px;
     }
-    #section0 .timer .size_lg {
+    .section0 .timer .size_lg {
         font-size: 44px;
         padding-top: 5px;
     }
-    #section0 .timer .register {
+    .section0 .timer .register {
         font-size: 20px;
     }
-    #section1 .content.right .date {
+    .section0 .content.right .date {
         margin: 0px;
     }
 }
@@ -228,16 +228,16 @@
         position: relative;
     }
 
-    #section0 .content .date {
+    .section0 .content .date {
         font-size: 55px;
         text-align: left;
     }
 
-    #section0 .content .title {
+    .section0 .content .title {
         font-size: 55px;
         width: 60%;
     }
-    #section0 .timer .size_lg {
+    .section0 .timer .size_lg {
         font-size: 55px;  
     }  
 }

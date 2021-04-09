@@ -250,3 +250,35 @@ p {
     font-size: 18px;
     color: $white;
 }
+
+
+
+
+.copyright {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 2rem;
+
+ p {
+      font-family: $font;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      color: $white;
+  }
+
+  .link {
+      font-family: $font;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      color: $white;
+      &:hover {
+          color: $pink;
+          text-decoration: none;
+      }
+  }
+}

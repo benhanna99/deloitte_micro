@@ -1,4 +1,4 @@
-#section4 {
+.section4 {
     .content {
         padding-top: 1rem;
 
@@ -59,15 +59,15 @@
 }
 
 
-#section4 .posts .item a:hover .title  {
+.section4 .posts .item a:hover .title  {
     color: $pink;
 }
 
 @media (max-width: 1920px) {
-    #section4 .content.left .title {
+    .section4 .content.left .title {
         font-size: 44px;
     }
-    #section4 .content .title {
+    .section4 .content .title {
         font-size: 44px;
     }
 }
