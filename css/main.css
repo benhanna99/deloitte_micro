@@ -1016,6 +1016,8 @@ p {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: absolute;
+  bottom: 2rem;
 }
 #section7 .copyright p {
   font-family: "Open Sans", sans-serif;
