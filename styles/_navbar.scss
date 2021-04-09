@@ -1,0 +1,58 @@
+.navbar {
+    background-color: transparent!important;
+    padding-top: 2em;
+
+    .navbar-brand {
+        .logo {
+            position: relative;
+            left: -50px;
+        }
+    }
+
+    .navbar-nav {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        width: 100%;
+        .nav-item {
+            font-family: $font;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 21px;
+
+                padding-right: 2.5rem;
+ 
+
+            &.active {
+                color: $pink;
+            }
+            .nav-link {
+                color: $blue;
+                &:hover {
+                    color: $pink;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1400px) {
+    .navbar .navbar-nav .nav-item {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 1250px) {
+    .navbar .navbar-nav .nav-item {
+        font-size: 16px;
+    }
+    .navbar .navbar-brand .logo {
+        left: -1rem;
+    }
+}
+
+@media (max-width: 1200px) {
+    .navbar .navbar-nav .nav-item {
+        padding-right: 2rem;
+    }
+}

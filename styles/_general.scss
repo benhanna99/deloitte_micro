@@ -1,0 +1,120 @@
+
+// Color system
+$white: #fff;
+$black: #000;
+$blue: #00E1FF;
+$pink: #FF0080;
+$green: #80C342;
+
+//Fonts
+
+$font: 'Open Sans', sans-serif;
+
+// stylelint-enable value-keyword-case
+
+$font-size-base:              1.125rem; // Assumes the browser default, typically `16px`
+$font-size-xl:                $font-size-base * 1.375;
+$font-size-lg:                $font-size-base * 1.25;
+$font-size-md:                $font-size-base * 1.125;
+$font-size-sm:                $font-size-base * 0.875;
+
+$line-height-base:            1.5;
+
+$headings-font-family:        null;
+$headings-font-weight:        700;
+
+$lead-font-weight:            400;
+
+
+//layout 
+$xxl: 1200px;
+$xl: 1200px;
+
+
+//General Styles
+body {
+    font-family: $font;
+}
+
+.layout {
+    width: 100%;
+    max-width: $xl;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 1920px) {
+    .layout {
+        max-width: 1130px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .layout {
+        max-width: 1125px;
+    }
+}
+
+@media (max-width: 1250px) {
+    .layout {
+        max-width: 980px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .layout {
+        max-width: 992px;
+    }
+}
+
+@media (max-width:1050px) {
+    .layout {
+        max-width: 900px;
+    }
+}
+
+@media (max-width: 992px) {
+    .layout {
+        max-width: 90%;
+    }
+}
+
+#header, #footer {
+    position: absolute;
+    display: block;
+    width: 100%;
+    z-index: 9;
+    text-align: center;
+    color: rgb(242, 242, 242);
+}
+
+
+
+.content--center {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.bg-image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover; 
+}
+
+.flex--center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.w-90 {
+    width: 90%;
+}

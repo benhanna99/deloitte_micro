@@ -1,0 +1,84 @@
+#section5 {
+    .content {
+        padding-top: 1rem;
+
+            .title {
+                text-align: left;
+                font-family: $font;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 50px;
+                color: $green;
+            }
+            .sub-title {
+                font-family: $font;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 18px;
+                color: $white;
+            }
+
+            .item {
+                
+                .pic {
+                    vertical-align: middle;
+                    border-style: none;
+                    border: 1px solid white;
+                    border-radius: 100%;
+                }
+
+                .info {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    padding-top: 1rem;
+
+                    .name {
+                        font-family: $font;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 21px;
+                        color: $white;
+                        text-align: left;
+                    }
+                    
+                    .post {
+                        font-family: $font;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 18px;
+                        color: $white;
+                        text-align: left;
+                        white-space: nowrap;
+                    }
+                }
+            }
+
+        }
+}
+
+@media (max-width: 1920px) {
+    #section5 .content.left .title {
+        font-size: 44px;
+    }
+    #section5 .content .title {
+        font-size: 44px;
+    }
+}
+
+@media (max-width: 1250px) {
+    #section5 .content .item .info .post {
+        white-space: unset;
+    }
+    #section5 .content .item .pic {
+        height: 150px;
+        width: 150px;
+    }
+    #section5 .content .item .info .post {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 992px) {
+
+}
