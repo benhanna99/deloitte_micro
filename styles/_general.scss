@@ -32,8 +32,13 @@ $xl: 1200px;
 
 
 //General Styles
+html {
+  background-color: $black;
+}
+
 body {
     font-family: $font;
+    background-color: $black;
 }
 
 .layout {
