@@ -303,19 +303,27 @@ p {
   top: 1rem;
   left: 1.4rem;
 }
-#section0 .timer .clock {
+#section0 .timer .size_lg {
   font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 72px;
-  color: #00E1FF;
+  color: #fff;
   display: flex;
   justify-content: space-around;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  border: none !important;
+  margin-bottom: -1rem;
 }
-#section0 .timer .clock span {
-  color: #fff;
+#section0 .timer .size_lg span {
+  color: #00E1FF;
+}
+#section0 .timer .colorDefinition {
+  background: transparent !important;
+  color: #FFFFFF;
+  border-color: transparent !important;
+  border: none !important;
 }
 #section0 .timer .days {
   border-top: 1px solid #00E1FF;
@@ -379,14 +387,14 @@ p {
     top: 1rem;
     left: 1.5rem;
   }
-  #section0 .timer .clock {
+  #section0 .timer .size_lg {
     font-size: 54px;
     padding-left: 1rem;
     padding-right: 1rem;
     height: 100%;
     margin: 0px;
   }
-  #section0 .timer .clock span {
+  #section0 .timer .size_lg span {
     margin: 0px;
     padding: 0px;
   }
@@ -426,7 +434,7 @@ p {
     font-size: 16px;
   }
 
-  #section0 .timer .clock {
+  #section0 .timer .size_lg {
     font-size: 44px;
     padding-top: 5px;
   }
@@ -459,7 +467,7 @@ p {
     width: 60%;
   }
 
-  #section0 .timer .clock {
+  #section0 .timer .size_lg {
     font-size: 55px;
   }
 }
