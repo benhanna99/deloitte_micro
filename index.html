@@ -15,7 +15,12 @@
 	<![endif]-->         
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css">
     </head>     
-    <body> 
+    <body>
+        <div id="loader-wrapper">
+            <div id="loader"></div>
+            <div class="loader-section section-left"></div>
+            <div class="loader-section section-right"></div>
+          </div> 
         <div id="header">
             <nav class="layout navbar bg-dark navbar navbar-expand-lg navbar-light"> 
                 <a class="navbar-brand" href="#"><img alt="Deloitte logo" src="images/deloitte.png" class="logo img-fluid"/></a> 
@@ -475,12 +480,12 @@ Visit the Awards homepage<br><a class="link" href="">here</a> </p>
                             </div>
                         </div>
                         <div class="row copyright">
-                            <div class="col-md-8 col-sm-12 col-xs-12 p-0 text-left">
+                            <div class="col-12 col-lg-8 col-md-12 col-sm-12 col-xl-8 p-0 text-left">
                                 <p>© 2021 Deloitte Ireland LLP. All rights reserved</p>
                             </div>
-                            <div class="align-items-center col-md-4 col-sm-12 col-xs-12 d-flex flex-row justify-content-between p-0 text-right">
-                                <a class="link" href="">Register to attend </a> 
-                                <a class="link" href="">2021 Nominees</a>
+                            <div class="align-items-center col-12 col-lg-4 col-md-6 col-sm-12 col-xl-4 col-xs-12 d-flex flex-row justify-content-between p-0 text-right">
+                                <a class="link text-left" href="">Register to attend </a> 
+                                <a class="link text-left" href="">2021 Nominees</a>
                             </div>
                         </div>
                     </div>
@@ -500,3 +505,8 @@ Visit the Awards homepage<br><a class="link" href="">here</a> </p>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
             <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+            <script>
+                window.addEventListener('load',function(){
+                    document.querySelector('body').classList.add("loaded")  
+                    });
+            </script>
