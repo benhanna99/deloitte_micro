@@ -1,0 +1,109 @@
+<!DOCTYPE html> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+    <head> 
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/> 
+        <title>Deloitte Awards</title>         
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"> 
+        <link rel="stylesheet" type="text/css" href="css/jQuery.countdownTimer.css"/>
+        <link rel="stylesheet" type="text/css" href="css/fullpage.css"/>
+        <link rel="stylesheet" type="text/css" href="css/main.css"/> 
+        <!--[if IE]>
+		<script type="text/javascript">
+			 var console = { log: function() {} };
+		</script>
+	<![endif]-->         
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css">
+    </head>     
+    <body>
+        <div id="loader-wrapper">
+            <div id="loader"></div>
+            <div class="loader-section section-left"></div>
+            <div class="loader-section section-right"></div>
+        </div>         
+        <div id="header">
+            <nav class="layout navbar bg-dark navbar navbar-expand-lg navbar-light"> 
+                <a class="navbar-brand" href="index.html#firstPage"><img alt="Deloitte logo" src="images/deloitte.png" class="logo img-fluid"/></a> 
+                <button class="bg-white navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler8" aria-controls="" aria-expanded="false" aria-label="Toggle navigation"> 
+                    <span class="navbar-toggler-icon"></span> 
+                </button>                 
+                <div class="collapse navbar-collapse" id="navbarToggler8"> 
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0"> 
+                        <li data-menuanchor="firstPage" class="nav-item"> 
+                            <a class="nav-link" href="#section1">Register</a> 
+                        </li>
+                        <li data-menuanchor="secondPage" class="nav-item active"> 
+                            <a class="nav-link" href="#section3">About</a> 
+                        </li>                         
+                        <li data-menuanchor="thirdPage" class="nav-item"> 
+                            <a class="nav-link" href="#section4">Nominees</a> 
+                        </li>
+                        <li data-menuanchor="fourthPage" class="nav-item"> 
+                            <a class="nav-link" href="#section5">Judges</a> 
+                        </li>
+                        <li data-menuanchor="fifthPage" class="nav-item"> 
+                            <a class="nav-link" href="#section6">Supporters</a> 
+                        </li>
+                        <li data-menuanchor="sixthPage" class="nav-item"> 
+                            <a class="nav-link" href="#section7">Contact</a> 
+                        </li>                         
+                    </ul>                     
+                </div>                 
+            </nav>
+        </div>         
+        <div id="fullpage"> 
+            <div class="section " id="section0"> 
+                <img class="bg-image" src="images/section1.png" alt="deloitte awards"/>
+                <div class="intro layout content--center">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-12 col-lg-7 col-md-12 col-sm-12 col-xl-8">
+                                <div class="content left"> 
+                                    <h2 class="title"><span>Register to Attend on June 3rd</span></h2>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-5 col-md-12 col-sm-12 col-xl-4">
+                                <div class="content right"> 
+</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>                 
+            </div>                                       
+            <div id="footer">
+</div>             
+            <script type="text/javascript" src="js/fullpage.js"></script>             
+            <script type="text/javascript">
+                var myFullpage = new fullpage('#fullpage', {
+                    licenseKey: 'D1BEA543-4378424A-B869EC9C-D2F89538',
+                    anchors: ['firstPage', 'secondPage', 'thirdPage','fourthPage','fifthPage','sixthPage'],
+                    sectionsColor: ['#000000', '#000000', '#000000'],
+                    css3: true
+                });
+            </script>             
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+            <script src="js/jQuery.countdownTimer.js"></script>
+            <script>
+                // PRELOADER
+                window.addEventListener('load',function(){
+                    document.querySelector('body').classList.add("loaded")  
+                    }); 
+            </script>
+            <script type="text/javascript">
+            $(function(){
+                $('#hms_timer').countdowntimer({
+                    startDate : "2021/04/01 12:00:00",
+                    dateAndTime : "2021/04/30 12:00:00",
+                    days : 13,
+                    hours : 13,
+                    minutes : 10,
+                    seconds : 10,
+                    displayFormat : "DHMS",
+                    size : "lg",
+                    timeSeparator : "<span>:</span>",
+                });
+            });
+            </script>
