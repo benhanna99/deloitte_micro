@@ -20,17 +20,34 @@
         }
     .posts {     
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
+        margin: auto;
+        
         .item {
+            text-decoration: none;
+
+            &:hover {
+                color: $pink;
+                text-decoration: none;
+            }
+
+            .post-wrapper {
+                &:hover {
+                    color: $pink;
+                    text-decoration: none;
+                }
+            }
               video {
-                    max-width: 300px;
-                    border: 1px solid white;
+                max-width: 250px;
+                border: 1px solid white;
+                height: 160px;
+                background-color: #000;
                 }
 
                 h4 {
                     font-family: $font;
                     font-style: normal;
-                    font-weight: bold;
+                    font-weight: 400;
                     font-size: 18px;
                     color: $white;
                     text-align: center;
@@ -39,6 +56,11 @@
                 }
             }
         }
+}
+
+
+#section4 .posts .item a:hover .title  {
+    color: $pink;
 }
 
 @media (max-width: 1920px) {

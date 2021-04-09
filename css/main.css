@@ -194,6 +194,11 @@ body {
   width: 90%;
 }
 
+a:hover {
+  color: #FF0080;
+  text-decoration: none;
+}
+
 p {
   font-family: "Open Sans", sans-serif;
   font-style: normal;
@@ -718,21 +723,39 @@ p {
 }
 #section4 .posts {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  margin: auto;
+}
+#section4 .posts .item {
+  text-decoration: none;
+}
+#section4 .posts .item:hover {
+  color: #FF0080;
+  text-decoration: none;
+}
+#section4 .posts .item .post-wrapper:hover {
+  color: #FF0080;
+  text-decoration: none;
 }
 #section4 .posts .item video {
-  max-width: 300px;
+  max-width: 250px;
   border: 1px solid white;
+  height: 160px;
+  background-color: #000;
 }
 #section4 .posts .item h4 {
   font-family: "Open Sans", sans-serif;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 400;
   font-size: 18px;
   color: #fff;
   text-align: center;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
+}
+
+#section4 .posts .item a:hover .title {
+  color: #FF0080;
 }
 
 @media (max-width: 1920px) {

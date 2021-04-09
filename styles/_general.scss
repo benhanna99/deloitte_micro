@@ -233,6 +233,16 @@ body {
     width: 90%;
 }
 
+
+//WP EDITOR
+
+a {
+    &:hover {
+        color: $pink;
+        text-decoration: none;
+    }
+}
+
 p {
     font-family: $font;
     font-style: normal;
