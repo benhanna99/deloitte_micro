@@ -275,7 +275,11 @@
         padding-top: .5em;
         padding-right: 1em;
     }
+    .section3 .content.left .sub-title {
+        line-height: 1.5;
+        }
 }
+
 
 @media (max-width: 400px) {
     .owl-prev {
@@ -375,11 +379,11 @@
    }
 
    #section3 {
-    height: 600px!important;
+    height: 120vh!important;
 }
 
   #section3 .fp-tableCell {
-    height: 600px!important;
+    height: 120vh!important;
     }
 
   #section4 {

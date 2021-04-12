@@ -69,7 +69,7 @@
         justify-content: center;
         height: 100%;
         margin-top: -1rem;
-        margin-right: -3rem;
+        margin-right: -1rem;
 
         .logo {
             padding-bottom: 1rem;
@@ -89,18 +89,17 @@
             font-family: $font;
             font-style: normal;
             font-weight: normal;
-            font-size: 45px;
+            font-size: 42px;
             color: $white;
         }
         .date {
             font-family:  $font;
             font-style: normal;
             font-weight: normal;
-            font-size: 43px;
+            font-size: 40px;
             color:  $green;
             text-align: right;
             width: 100%;
-            margin-left: 1rem;
         }
     }
 }

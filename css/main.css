@@ -693,7 +693,7 @@ button:focus, button:active {
   justify-content: center;
   height: 100%;
   margin-top: -1rem;
-  margin-right: -3rem;
+  margin-right: -1rem;
 }
 .section1 .content.right .logo {
   padding-bottom: 1rem;
@@ -711,18 +711,17 @@ button:focus, button:active {
   font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 45px;
+  font-size: 42px;
   color: #fff;
 }
 .section1 .content.right .date {
   font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 43px;
+  font-size: 40px;
   color: #80C342;
   text-align: right;
   width: 100%;
-  margin-left: 1rem;
 }
 
 .section3 .content.left {
@@ -1430,6 +1429,10 @@ button:focus, button:active {
     padding-top: 0.5em;
     padding-right: 1em;
   }
+
+  .section3 .content.left .sub-title {
+    line-height: 1.5;
+  }
 }
 @media (max-width: 400px) {
   .owl-prev {
@@ -1474,11 +1477,11 @@ button:focus, button:active {
   }
 
   #section3 {
-    height: 600px !important;
+    height: 120vh !important;
   }
 
   #section3 .fp-tableCell {
-    height: 600px !important;
+    height: 120vh !important;
   }
 
   #section4 {
