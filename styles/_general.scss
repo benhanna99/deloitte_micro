@@ -12,11 +12,12 @@ $font: 'Open Sans', sans-serif;
 
 // stylelint-enable value-keyword-case
 
-$font-size-base:              1.125rem; // Assumes the browser default, typically `16px`
-$font-size-xl:                $font-size-base * 1.375;
-$font-size-lg:                $font-size-base * 1.25;
-$font-size-md:                $font-size-base * 1.125;
-$font-size-sm:                $font-size-base * 0.875;
+$font-size-base: 16px;
+$main-title-xl: 50px;
+$main-title-lg: 44px;
+$main-title-md: 40px;
+$main-title-sm: 30px;
+$main-title-xs: 24px;
 
 $line-height-base:            1.5;
 
@@ -240,6 +241,10 @@ body {
 }
 
 
+.main-title {
+  font-size: $main-title-xl;
+}
+
 //WP EDITOR
 
 a {
@@ -257,7 +262,56 @@ p {
     color: $white;
 }
 
+.owl-carousel.off {
+  display: flex;
+}
 
+.owl-carousel.owl-drag .owl-item {
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+/* owl nav */
+.owl-prev span, .owl-next span {
+	color: $blue;
+}
+
+.owl-prev span:hover, 
+.owl-next span:hover {
+	color: $pink;
+}
+
+.owl-theme .owl-nav [class*=owl-]:hover {
+  background: none!important;
+}
+
+.owl-prev, .owl-next {
+	position: absolute;
+	top: 0;
+	height: 100%;
+}
+
+.owl-prev {
+	left: 7px;
+}
+
+.owl-next {
+	right: 7px;
+}
+
+/* removing blue outline from buttons */
+button:focus, button:active {
+   outline: none;
+}
 
 
 .copyright {
@@ -286,5 +340,36 @@ p {
           color: $pink;
           text-decoration: none;
       }
+  }
+}
+
+
+.slide-arrow{
+  position: absolute;
+  top: 50%;
+  margin-top: -15px;
+}
+.prev-arrow{
+  left: -40px;
+  width: 0;
+  height: 0;
+  border-left: 0 solid transparent;
+  border-right: 15px solid $blue;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  &:hover {
+    border-right: $pink;
+  }
+}
+.next-arrow{
+  right: -40px;
+  width: 0;
+  height: 0;
+  border-right: 0 solid transparent;
+  border-left: 15px solid  $blue;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  &:hover {
+    border-left: $pink;
   }
 }

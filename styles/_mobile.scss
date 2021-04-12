@@ -1,4 +1,117 @@
+@media (max-width: 1920px) {
+    .section1 .content.left .title {
+        font-size: $main-title-xl;
+    }
+    .section1 .content.left form {
+        max-width: 630px;
+    }
+}
+
+
+@media (max-width: 1250px) {
+    .main-title {
+        font-size: $main-title-md;
+    }
+
+    .section1 .content.left form {
+        max-width: 550px;
+    }
+
+    .section1 .content.right .title {
+        font-size: 34px;
+    }
+    
+    .section1 .content.right .date {
+        margin-left: -.5rem;
+    }
+
+    .section1 .content.right .sub-title {
+        font-size: 18px;
+    }
+
+    .section1 .content.right .date {
+        font-size: 34px;
+    }
+}
+
+
+@media (max-width: 1200px) {
+    .main-title {
+        font-size: $main-title-md;
+    }
+
+    .section1 .content.right {
+        align-items: center;
+        margin-right: unset;
+    }
+    .section1 .content.right .title {
+        text-align: center;
+    }
+    .section1 .content.right .date {
+        margin-left: unset;
+        text-align: center;
+    }    
+}
+ 
+@media (max-width: 992px) {
+    .section1 .content.left form {
+        max-width: 100%;
+        padding-top: 2rem;
+    }
+
+    .main-title {
+        font-size: $main-title-sm;
+    }
+
+    #section5 .content .item .info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }    
+
+    .mob-center {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }    
+
+    .section4 .posts {
+        padding-top: 5rem;
+    }
+
+    .section4 .posts .item.text-center.pb-5 {
+        padding-bottom: 0px!important;
+    }
+
+    .section4 .posts .ml-xl-auto.mr-xl-auto.post-content.w-75 {
+        width: 100%!important;
+    }
+
+    .section6 .posts .item {
+        width: 80%!important;
+    }
+
+    .section6 .posts {
+        padding-top: 4rem;
+    }
+    
+
+}
+
+
 @media (max-width: 768px) {
+    .main-title {
+        font-size: $main-title-sm;
+    }
+
+    .layout.navbar.bg-dark.navbar.navbar-expand-lg.navbar-dark {
+        background-color: black!important;
+    }
+
     p {
         font-size: 16px
     }
@@ -158,5 +271,14 @@
 
     .section6 .content--center {
         align-items: center;
+    }
+}
+
+@media (max-width: 400px) {
+    .owl-prev {
+        left: -3%;
+    }
+    .owl-next {
+        right: -3%;
     }
 }

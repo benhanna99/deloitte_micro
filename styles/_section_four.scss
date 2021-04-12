@@ -7,7 +7,6 @@
                 font-family: $font;
                 font-style: normal;
                 font-weight: bold;
-                font-size: 50px;
                 color: $green;
             }
             .sub-title {
@@ -61,21 +60,4 @@
 
 .section4 .posts .item a:hover .title  {
     color: $pink;
-}
-
-@media (max-width: 1920px) {
-    .section4 .content.left .title {
-        font-size: 44px;
-    }
-    .section4 .content .title {
-        font-size: 44px;
-    }
-}
-
-@media (max-width: 1250px) {
-
-}
-
-@media (max-width: 992px) {
-
 }
