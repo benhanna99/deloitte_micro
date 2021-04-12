@@ -1445,6 +1445,11 @@ button:focus, button:active {
     align-items: center;
   }
 }
+@media (max-width: 575px) {
+  .section0 .content .title {
+    font-size: 34px;
+  }
+}
 @media (max-width: 400px) {
   .owl-prev {
     left: -3%;
