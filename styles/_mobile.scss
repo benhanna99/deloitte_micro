@@ -62,8 +62,7 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        top: -10%;
-    }
+            }
 
     .section1 .content.left form {
         max-width: 100%;
@@ -112,10 +111,6 @@
     .section6 .posts .item {
         width: 80%!important;
     }
-
-    .section6 .posts {
-        padding-top: 4rem;
-    }
     
 
 }
@@ -128,6 +123,11 @@
 
     .sub-title {
         font-size: $font-size-base;
+    }
+
+    .section0 .content .title {
+        font-size: 45px;
+        width: 80%;
     }
 
     .layout.navbar.bg-dark.navbar.navbar-expand-lg.navbar-dark {
@@ -323,7 +323,10 @@
 
 @media (max-width: 768px) {
     .section0 {
-        
+        height: 90vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;    
     }
     .section1 {
         
@@ -352,30 +355,59 @@
 }
 
 @media (max-width: 576px) {
-    .section0.fp-responsive .fp-auto-height-responsive.fp-section {
-        height: 700px!important;
-    }
-    .section1.fp-responsive .fp-auto-height-responsive.fp-section {
-        height: 800px!important;
+    .section0.fp-responsive .fp-auto-height-responsive {
+        height: 90vh!important;
+        display: flex;
+        justify-content: center;
+        align-items: center;    
     }
 
-    .section3 {
-        
+    #section1 {
+        height: 750px!important;
+     }
+
+    #section1 .fp-tableCell {
+      height: 750px!important;
+   }
+
+   #section3 {
+    height: 600px!important;
+}
+
+  #section3 .fp-tableCell {
+    height: 600px!important;
     }
-    .section4 {
-        
+
+  #section4 {
+        height: 500px!important;
     }
-    .section5 {
-        
+
+    #section4 .fp-tableCell {
+        height: 500px!important;
     }
-    .section6 {
-        
+
+    #section5 {
+        height: 500px!important;
     }
-    .section7 {
-        
+
+    #section5 .fp-tableCell {
+        height: 500px!important;
     }
-    .sub-page{
-        
+
+    #section6 {
+        height: 600px!important;
+    }
+
+    #section6 .fp-tableCell {
+        height: 600px!important;
+    }
+
+    #section7 {
+        height: 600px!important;
+    }
+
+    #section7 .fp-tableCell {
+        height: 600px!important;
     }
 }
 

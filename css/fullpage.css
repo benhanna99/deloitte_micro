@@ -215,13 +215,13 @@ html.fp-enabled,
 .fp-auto-height.fp-section,
 .fp-auto-height .fp-slide,
 .fp-auto-height .fp-tableCell{
-    height: auto !important;
+    height: auto;
 }
 
 .fp-responsive .fp-auto-height-responsive.fp-section,
 .fp-responsive .fp-auto-height-responsive .fp-slide,
 .fp-responsive .fp-auto-height-responsive .fp-tableCell {
-    height: auto !important;
+    height: auto;
 }
 
 /*Only display content to screen readers*/
