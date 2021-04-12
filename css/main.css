@@ -973,15 +973,6 @@ button:focus, button:active {
   color: #FF0080;
 }
 
-@media (max-width: 1920px) {
-  .section6 .content.left .title {
-    font-size: 44px;
-  }
-
-  .section6 .content .title {
-    font-size: 44px;
-  }
-}
 @media (max-width: 1250px) {
   .section6 .posts .item {
     max-width: 100% !important;
@@ -1203,6 +1194,19 @@ button:focus, button:active {
   }
 }
 @media (max-width: 992px) {
+  #loader-wrapper {
+    display: none;
+  }
+
+  .layer-1 {
+    position: absolute;
+    z-index: 9999999;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
   .section1 .content.left form {
     max-width: 100%;
     padding-top: 2rem;
@@ -1226,6 +1230,14 @@ button:focus, button:active {
     align-items: center;
     text-align: center;
     justify-content: center;
+  }
+
+  .section1 .content.right .title {
+    font-size: 24px;
+  }
+
+  .section1 .content.right .date {
+    font-size: 28px;
   }
 
   .section4 .posts {

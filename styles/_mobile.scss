@@ -51,6 +51,19 @@
 }
  
 @media (max-width: 992px) {
+    #loader-wrapper {
+        display: none;
+    }
+
+    .layer-1 {
+        position: absolute;
+        z-index: 9999999;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
     .section1 .content.left form {
         max-width: 100%;
         padding-top: 2rem;
@@ -74,7 +87,14 @@
         align-items: center;
         text-align: center;
         justify-content: center;
-    }    
+    }  
+    
+    .section1 .content.right .title {
+        font-size: 24px;
+    }
+    .section1 .content.right .date {
+        font-size: 28px;
+    }
 
     .section4 .posts {
         padding-top: 5rem;
