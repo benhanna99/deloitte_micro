@@ -1194,8 +1194,8 @@ button:focus, button:active {
   }
 }
 @media (max-width: 992px) {
-  #loader-wrapper {
-    display: none;
+  .section0 .content--center {
+    align-items: unset;
   }
 
   .layer-1 {
