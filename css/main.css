@@ -249,6 +249,11 @@ p {
   background: none !important;
 }
 
+.owl-theme .owl-nav [class*=owl-] {
+  background: none;
+  border: none;
+}
+
 .owl-prev, .owl-next {
   position: absolute;
   top: 0;
@@ -261,6 +266,37 @@ p {
 
 .owl-next {
   right: 7px;
+}
+
+.owl-prev, .owl-next {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  background: none;
+  border: none;
+}
+
+.award-carousel.off {
+  display: flex;
+}
+
+.award-carousel .owl-stage {
+  overflow: hidden;
+  display: flex;
+  transform: unset;
+  justify-content: center;
+}
+
+.award-carousel.owl-drag .owl-item {
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
 /* removing blue outline from buttons */
@@ -293,6 +329,10 @@ button:focus, button:active {
 .copyright .link:hover {
   color: #FF0080;
   text-decoration: none;
+}
+
+.white-link {
+  color: white;
 }
 
 .slide-arrow {
@@ -1172,6 +1212,16 @@ button:focus, button:active {
   .section1 .content.right .date {
     font-size: 34px;
   }
+
+  .w-75 {
+    width: 100% !important;
+  }
+
+  .section4 .posts {
+    margin: unset;
+    justify-content: unset;
+    padding-top: 2rem;
+  }
 }
 @media (max-width: 1201px) {
   .main-title {
@@ -1497,51 +1547,51 @@ button:focus, button:active {
   }
 
   #section1 {
-    height: 90vh;
+    height: 90vh !important;
   }
 
   #section1 .fp-tableCell {
-    height: 90vh;
+    height: 90vh !important;
   }
 
   #section3 {
-    height: 70vh;
+    height: 70vh !important;
   }
 
   #section3 .fp-tableCell {
-    height: 70vh;
+    height: 70vh !important;
   }
 
   #section4 {
-    height: 550px;
+    height: 550px !important;
   }
 
   #section4 .fp-tableCell {
-    height: 550px;
+    height: 550px !important;
   }
 
   #section5 {
-    height: 550px;
+    height: 550px !important;
   }
 
   #section5 .fp-tableCell {
-    height: 550px;
+    height: 550px !important;
   }
 
   #section6 {
-    height: 600px;
+    height: 600px !important;
   }
 
   #section6 .fp-tableCell {
-    height: 600px;
+    height: 600px !important;
   }
 
   #section7 {
-    height: 600px;
+    height: 600px !important;
   }
 
   #section7 .fp-tableCell {
-    height: 600px;
+    height: 600px !important;
   }
 }
 @media (max-width: 575px) {
@@ -1550,107 +1600,107 @@ button:focus, button:active {
   }
 
   .section0.fp-responsive .fp-auto-height-responsive {
-    height: 90vh;
+    height: 90vh !important;
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
   #section1 {
-    height: 140vh;
+    height: 140vh !important;
   }
 
   #section1 .fp-tableCell {
-    height: 140vh;
+    height: 140vh !important;
   }
 
   #section3 {
-    height: 120vh;
+    height: 120vh !important;
   }
 
   #section3 .fp-tableCell {
-    height: 120vh;
+    height: 120vh !important;
   }
 
   #section4 {
-    height: 500px;
+    height: 500px !important;
   }
 
   #section4 .fp-tableCell {
-    height: 500px;
+    height: 500px !important;
   }
 
   #section5 {
-    height: 500px;
+    height: 500px !important;
   }
 
   #section5 .fp-tableCell {
-    height: 500px;
+    height: 500px !important;
   }
 
   #section6 {
-    height: 600px;
+    height: 600px !important;
   }
 
   #section6 .fp-tableCell {
-    height: 600px;
+    height: 600px !important;
   }
 
   #section7 {
-    height: 600px;
+    height: 600px !important;
   }
 
   #section7 .fp-tableCell {
-    height: 600px;
+    height: 600px !important;
   }
 }
 @media (max-width: 485px) {
   #section0 {
-    height: 120vh;
+    height: 120vh !important;
   }
 
   #section0 .fp-tableCell {
-    height: 120vh;
+    height: 120vh !important;
   }
 
   #section1 {
-    height: 160vh;
+    height: 160vh !important;
   }
 
   #section1 .fp-tableCell {
-    height: 160vh;
+    height: 160vh !important;
   }
 
   #section3 {
-    height: 150vh;
+    height: 150vh !important;
   }
 
   #section3 .fp-tableCell {
-    height: 150vh;
+    height: 150vh !important;
   }
 
   #section4 {
-    height: 150vh;
+    height: 150vh !important;
   }
 
   #section4 .fp-tableCell {
-    height: 150vh;
+    height: 150vh !important;
   }
 
   #section5 {
-    height: 110vh;
+    height: 110vh !important;
   }
 
   #section5 .fp-tableCell {
-    height: 110vh;
+    height: 110vh !important;
   }
 
   #section6 {
-    height: 110vh;
+    height: 110vh !important;
   }
 
   #section6 .fp-tableCell {
-    height: 110vh;
+    height: 110vh !important;
   }
 }
 

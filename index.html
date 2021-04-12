@@ -213,7 +213,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="mt-xl-5 posts row owl-carousel owl-theme" id="awards-slider">
+                    <div class="mt-xl-5 posts row award-carousel" id="awards-slider">
                         <div class="item text-center pb-5">
                             <a href="/winners.html/#winners1" class="post-wrapper open-modal">
                                 <div class="post-img">
@@ -530,63 +530,7 @@
             <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
                 integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
                 crossorigin="anonymous"></script>
-            <script>
-                // PRELOADER
-                window.addEventListener('load', function () {
-                    document.querySelector('body').classList.add("loaded")
-                });
-            </script>
-            <script type="text/javascript">
-                $(function () {
-                    $('#hms_timer').countdowntimer({
-                        startDate: "2021/04/01 12:00:00",
-                        dateAndTime: "2021/04/30 12:00:00",
-                        days: 13,
-                        hours: 13,
-                        minutes: 10,
-                        seconds: 10,
-                        displayFormat: "DHMS",
-                        size: "lg",
-                        responsiveWidth: 768,
-                        timeSeparator: "<span>:</span>",
-                    });
-                });
-            </script>
-            <script>
-                $(function () {
-                    var owl = $('.owl-carousel'),
-
-                        owlOptions = {
-                            loop: true,
-                            center: true,
-                            slideSpeed: 2000,
-                            nav: true,
-                            items: 1,
-                            dots: false,
-                            navText: ['<span class="arrow-left fas fa-chevron-left fa-2x"></span>', '<span class="arrow-right fas fa-chevron-right fa-2x"></span>'],
-                        };
-
-                    if ($(window).width() < 992) {
-                        var owlActive = owl.owlCarousel(owlOptions);
-                    } else {
-                        owl.addClass('off');
-                    }
-
-                    $(window).resize(function () {
-                        if ($(window).width() < 992) {
-                            if ($('.owl-carousel').hasClass('off')) {
-                                var owlActive = owl.owlCarousel(owlOptions);
-                                owl.removeClass('off');
-                            }
-                        } else {
-                            if (!$('.owl-carousel').hasClass('off')) {
-                                owl.addClass('off').trigger('destroy.owl.carousel');
-                                owl.find('.owl-stage-outer').children(':eq(0)').unwrap();
-                            }
-                        }
-                    });
-                });
-            </script>
+                <script src="js/main.js"></script>
         </div>
 </body>
 

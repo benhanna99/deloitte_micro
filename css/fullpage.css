@@ -212,17 +212,6 @@ html.fp-enabled,
 #fp-nav ul li .fp-tooltip.fp-left {
     left: 20px;
 }
-.fp-auto-height.fp-section,
-.fp-auto-height .fp-slide,
-.fp-auto-height .fp-tableCell{
-    height: auto;
-}
-
-.fp-responsive .fp-auto-height-responsive.fp-section,
-.fp-responsive .fp-auto-height-responsive .fp-slide,
-.fp-responsive .fp-auto-height-responsive .fp-tableCell {
-    height: auto;
-}
 
 /*Only display content to screen readers*/
 .fp-sr-only{

@@ -294,6 +294,11 @@ p {
   background: none!important;
 }
 
+.owl-theme .owl-nav [class*=owl-] {
+  background: none;
+  border: none;
+}
+
 .owl-prev, .owl-next {
 	position: absolute;
 	top: 0;
@@ -307,6 +312,37 @@ p {
 .owl-next {
 	right: 7px;
 }
+.owl-prev, .owl-next {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    background: none;
+    border: none;
+}
+
+.award-carousel.off {
+  display: flex;
+}
+
+.award-carousel .owl-stage {
+  overflow: hidden;
+  display: flex;
+  transform: unset;
+  justify-content: center;
+}
+
+.award-carousel.owl-drag .owl-item {
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
 
 /* removing blue outline from buttons */
 button:focus, button:active {
@@ -343,6 +379,9 @@ button:focus, button:active {
   }
 }
 
+.white-link {
+  color: white;
+}
 
 .slide-arrow{
   position: absolute;
