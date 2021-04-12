@@ -1839,11 +1839,11 @@ button:focus, button:active {
   }
 
   #section3 {
-    height: 100vh !important;
+    height: 120vh !important;
   }
 
   #section3 .fp-tableCell {
-    height: 100vh !important;
+    height: 120vh !important;
   }
 
   #section4 {
