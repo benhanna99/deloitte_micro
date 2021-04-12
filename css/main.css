@@ -1703,5 +1703,62 @@ button:focus, button:active {
     height: 110vh !important;
   }
 }
+@media screen and (orientation: landscape) {
+  .section0 {
+    height: 180vh !important;
+  }
+
+  #section0 .fp-tableCell {
+    height: 180vh !important;
+  }
+
+  #section1 {
+    height: 180vh !important;
+  }
+
+  #section1 .fp-tableCell {
+    height: 180vh !important;
+  }
+
+  #section3 {
+    height: 120vh !important;
+  }
+
+  #section3 .fp-tableCell {
+    height: 120vh !important;
+  }
+
+  #section4 {
+    height: 550px !important;
+  }
+
+  #section4 .fp-tableCell {
+    height: 550px !important;
+  }
+
+  #section5 {
+    height: 550px !important;
+  }
+
+  #section5 .fp-tableCell {
+    height: 550px !important;
+  }
+
+  #section6 {
+    height: 600px !important;
+  }
+
+  #section6 .fp-tableCell {
+    height: 600px !important;
+  }
+
+  #section7 {
+    height: 600px !important;
+  }
+
+  #section7 .fp-tableCell {
+    height: 600px !important;
+  }
+}
 
 /*# sourceMappingURL=main.css.map */
