@@ -331,6 +331,10 @@ button:focus, button:active {
   height: 100vh !important;
 }
 
+section {
+  height: 100vh !important;
+}
+
 .navbar {
   background-color: transparent !important;
   padding-top: 2em;
