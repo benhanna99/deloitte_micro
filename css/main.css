@@ -1448,7 +1448,23 @@ button:focus, button:active {
   }
 }
 /* BLOCK SECTION HEIGHTS */
+@media (max-width: 992px) {
+  .sub-page .overall {
+    width: 100%;
+  }
+
+  .sub-page .overall .date {
+    text-align: left;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+  }
+}
 @media (max-width: 768px) {
+  .winners.pb-5 {
+    padding-bottom: 1rem !important;
+  }
+
   .section0 {
     height: 90vh;
     display: flex;
@@ -1456,7 +1472,7 @@ button:focus, button:active {
     align-items: center;
   }
 }
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   .layer-1 {
     top: 15%;
   }
