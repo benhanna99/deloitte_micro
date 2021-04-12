@@ -1449,6 +1449,23 @@ button:focus, button:active {
 }
 /* BLOCK SECTION HEIGHTS */
 @media (max-width: 992px) {
+  .section0 .content .title {
+    width: 80%;
+  }
+
+  .section7 .content .social {
+    width: 60%;
+  }
+
+  .section7 .content .social a {
+    width: 40px;
+    height: 40px;
+  }
+
+  .section7 .content .social a i {
+    font-size: 22px;
+  }
+
   .sub-page .overall {
     width: 100%;
   }
