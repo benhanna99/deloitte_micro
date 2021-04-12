@@ -1448,6 +1448,22 @@ button:focus, button:active {
 @media (max-width: 575px) {
   .section0 .content .title {
     font-size: 34px;
+    width: 100%;
+  }
+
+  .section0 .content .date {
+    font-size: 34px !important;
+  }
+
+  .section0 .content .sub-title {
+    font-size: 22px;
+  }
+
+  .section0 .timer .size_lg {
+    font-size: 34px;
+    padding-left: 0.8em;
+    padding-top: 0.5em;
+    padding-right: 1em;
   }
 }
 @media (max-width: 400px) {
@@ -1457,6 +1473,11 @@ button:focus, button:active {
 
   .owl-next {
     right: -3%;
+  }
+
+  .section0 .content .title {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
   }
 }
 
