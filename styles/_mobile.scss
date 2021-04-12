@@ -101,15 +101,15 @@
     }
 
     .section4 .posts .item.text-center.pb-5 {
-        padding-bottom: 0px!important;
+        padding-bottom: 0px;
     }
 
     .section4 .posts .ml-xl-auto.mr-xl-auto.post-content.w-75 {
-        width: 100%!important;
+        width: 100%;
     }
 
     .section6 .posts .item {
-        width: 80%!important;
+        width: 80%;
     }
     
 
@@ -131,7 +131,7 @@
     }
 
     .layout.navbar.bg-dark.navbar.navbar-expand-lg.navbar-dark {
-        background-color: black!important;
+        background-color: black;
     }
 
     p {
@@ -193,10 +193,10 @@
         align-items: flex-start;
     }
     .section1 .content.right .title {
-        text-align: left!important;
+        text-align: left;
     }
     .section1 .content.right .date {
-        text-align: left!important;
+        text-align: left;
     }
     .section1 .content.right {
         margin-top: unset;
@@ -264,7 +264,7 @@
         width: 100%; 
     }
     .section0 .content .date {
-        font-size: 34px!important;
+        font-size: 34px;
     }
     .section0 .content .sub-title {
         font-size: 22px;
@@ -338,7 +338,7 @@
 
 @media (max-width: 768px) {
     .winners.pb-5 {
-        padding-bottom: 1rem!important;
+        padding-bottom: 1rem;
     }
 
     .section0 {
@@ -348,58 +348,58 @@
         align-items: center;    
     }
     .section0.fp-responsive .fp-auto-height-responsive {
-        height: 80vh!important;
+        height: 80vh;
         display: flex;
         justify-content: center;
         align-items: center;    
     }
 
     #section1 {
-        height: 90vh !important;
+        height: 90vh;
     }
 
     #section1 .fp-tableCell {
-      height:  90vh!important;
+      height:  90vh;
    }
 
    #section3 {
-    height: 70vh !important
+    height: 70vh
 }
 
   #section3 .fp-tableCell {
-    height: 70vh !important
+    height: 70vh
     }
 
   #section4 {
-        height: 550px!important;
+        height: 550px;
     }
 
     #section4 .fp-tableCell {
-        height: 550px!important;
+        height: 550px;
     }
 
     #section5 {
-        height: 550px!important;
+        height: 550px;
     }
 
     #section5 .fp-tableCell {
-        height: 550px!important;
+        height: 550px;
     }
 
     #section6 {
-        height: 600px!important;
+        height: 600px;
     }
 
     #section6 .fp-tableCell {
-        height: 600px!important;
+        height: 600px;
     }
 
     #section7 {
-        height: 600px!important;
+        height: 600px;
     }
 
     #section7 .fp-tableCell {
-        height: 600px!important;
+        height: 600px;
     }
 }
 
@@ -409,107 +409,107 @@
     }
 
     .section0.fp-responsive .fp-auto-height-responsive {
-        height: 90vh!important;
+        height: 90vh;
         display: flex;
         justify-content: center;
         align-items: center;    
     }
 
     #section1 {
-        height: 140vh !important;
+        height: 140vh;
     }
 
     #section1 .fp-tableCell {
-      height:  140vh!important;
+      height:  140vh;
    }
 
    #section3 {
-    height: 120vh!important;
+    height: 120vh;
 }
 
   #section3 .fp-tableCell {
-    height: 120vh!important;
+    height: 120vh;
     }
 
   #section4 {
-        height: 500px!important;
+        height: 500px;
     }
 
     #section4 .fp-tableCell {
-        height: 500px!important;
+        height: 500px;
     }
 
     #section5 {
-        height: 500px!important;
+        height: 500px;
     }
 
     #section5 .fp-tableCell {
-        height: 500px!important;
+        height: 500px;
     }
 
     #section6 {
-        height: 600px!important;
+        height: 600px;
     }
 
     #section6 .fp-tableCell {
-        height: 600px!important;
+        height: 600px;
     }
 
     #section7 {
-        height: 600px!important;
+        height: 600px;
     }
 
     #section7 .fp-tableCell {
-        height: 600px!important;
+        height: 600px;
     }
 }
 
 @media (max-width: 485px) {
     #section0 {
-        height: 120vh !important;
+        height: 120vh;
     }
 
     #section0 .fp-tableCell {
-      height:  120vh!important;
+      height:  120vh;
    }
 
    #section1 {
-    height: 160vh !important;
+    height: 160vh;
 }
 
     #section1 .fp-tableCell {
-    height:  160vh!important;
+    height:  160vh;
     }
 
     #section3{
-        height: 150vh !important;
+        height: 150vh;
     }
     
     #section3 .fp-tableCell {
-        height:  150vh!important;
+        height:  150vh;
     }
 
     #section4 {
-        height: 150vh !important;
+        height: 150vh;
     }
     
     #section4 .fp-tableCell {
-        height:  150vh!important;
+        height:  150vh;
     }
 
     #section5 {
-        height: 110vh !important;
+        height: 110vh;
     }
     
     #section5 .fp-tableCell {
-        height:  110vh!important;
+        height:  110vh;
     }
 
     #section6 {
-        height: 110vh !important;
+        height: 110vh;
     }
     
     #section6 .fp-tableCell {
-        height:  110vh!important;
+        height:  110vh;
     }
 }
