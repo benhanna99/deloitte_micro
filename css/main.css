@@ -1174,7 +1174,7 @@ button:focus, button:active {
     font-size: 34px;
   }
 }
-@media (max-width: 1200px) {
+@media (max-width: 1201px) {
   .main-title {
     font-size: 40px;
   }
@@ -1193,7 +1193,7 @@ button:focus, button:active {
     text-align: center;
   }
 }
-@media (max-width: 992px) {
+@media (max-width: 993px) {
   .section0 .content--center {
     align-items: unset;
   }
@@ -1205,6 +1205,7 @@ button:focus, button:active {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    top: -10%;
   }
 
   .section1 .content.left form {
@@ -1409,7 +1410,7 @@ button:focus, button:active {
     align-items: center;
   }
 }
-@media (max-width: 575px) {
+@media (max-width: 576px) {
   .section0 .content .title {
     font-size: 34px;
     width: 100%;
@@ -1441,6 +1442,16 @@ button:focus, button:active {
 
   .section0 .content .title {
     padding-right: 0.5em;
+  }
+}
+/* BLOCK SECTION HEIGHTS */
+@media (max-width: 576px) {
+  .section0.fp-responsive .fp-auto-height-responsive.fp-section {
+    height: 700px !important;
+  }
+
+  .section1.fp-responsive .fp-auto-height-responsive.fp-section {
+    height: 800px !important;
   }
 }
 
