@@ -1454,6 +1454,10 @@ button:focus, button:active {
   }
 }
 @media (max-width: 576px) {
+  .layer-1 {
+    top: 15%;
+  }
+
   .section0.fp-responsive .fp-auto-height-responsive {
     height: 90vh !important;
     display: flex;
@@ -1462,11 +1466,11 @@ button:focus, button:active {
   }
 
   #section1 {
-    height: 750px !important;
+    height: 140vh !important;
   }
 
   #section1 .fp-tableCell {
-    height: 750px !important;
+    height: 140vh !important;
   }
 
   #section3 {
