@@ -1,7 +1,4 @@
 @media (max-width: 1920px) {
-    .section1 .content.left .title {
-        font-size: $main-title-xl;
-    }
     .section1 .content.left form {
         max-width: 630px;
     }
@@ -108,6 +105,10 @@
         font-size: $main-title-sm;
     }
 
+    .sub-title {
+        font-size: $font-size-base;
+    }
+
     .layout.navbar.bg-dark.navbar.navbar-expand-lg.navbar-dark {
         background-color: black!important;
     }
@@ -163,42 +164,6 @@
         height: unset;
     }
 
-    .section1 .content.left .title {
-        font-size: 24px;
-    }
-
-    .section2 .content.left .title {
-        font-size: 24px;
-    }
-
-    .section3 .content.left .title {
-        font-size: 24px;
-    }
-
-    .section4 .content.left .title {
-        font-size: 24px;
-    }
-
-    .section5 .content.left .title {
-        font-size: 24px;
-    }
-
-    .section6 .content .title {
-        font-size: 24px;
-    }
-
-    .section6 .content.left .title {
-        font-size: 24px;
-    }
-
-    .section7 .content .title {
-        font-size: 24px;
-    }
-    
-    .section8 .content .title {
-        font-size: 24px;
-    }
-
     .section1 .content.left .text {
         font-size: 16px;
         line-height: 1.5;
@@ -207,11 +172,9 @@
         align-items: flex-start;
     }
     .section1 .content.right .title {
-        font-size: 24px;
         text-align: left!important;
     }
     .section1 .content.right .date {
-        font-size: 24px;
         text-align: left!important;
     }
     .section1 .content.right {
@@ -266,7 +229,7 @@
 
     .section6 .posts .item .middle p.text {
         line-height: 1.5;
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .section6 .content--center {

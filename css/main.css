@@ -733,7 +733,6 @@ button:focus, button:active {
   font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 50px;
   color: #80C342;
 }
 .section3 .content.left .sub-title {
@@ -766,15 +765,6 @@ button:focus, button:active {
   padding-bottom: 3rem;
 }
 
-@media (max-width: 1920px) {
-  .section3 .content.left .title {
-    font-size: 44px;
-  }
-
-  .section3 .content .title {
-    font-size: 44px;
-  }
-}
 @media (max-width: 992px) {
   .section3 .content.right {
     display: flex;
@@ -1164,10 +1154,6 @@ button:focus, button:active {
   }
 }
 @media (max-width: 1920px) {
-  .section1 .content.left .title {
-    font-size: 50px;
-  }
-
   .section1 .content.left form {
     max-width: 630px;
   }
@@ -1267,6 +1253,10 @@ button:focus, button:active {
     font-size: 30px;
   }
 
+  .sub-title {
+    font-size: 16px;
+  }
+
   .layout.navbar.bg-dark.navbar.navbar-expand-lg.navbar-dark {
     background-color: black !important;
   }
@@ -1323,42 +1313,6 @@ button:focus, button:active {
     height: unset;
   }
 
-  .section1 .content.left .title {
-    font-size: 24px;
-  }
-
-  .section2 .content.left .title {
-    font-size: 24px;
-  }
-
-  .section3 .content.left .title {
-    font-size: 24px;
-  }
-
-  .section4 .content.left .title {
-    font-size: 24px;
-  }
-
-  .section5 .content.left .title {
-    font-size: 24px;
-  }
-
-  .section6 .content .title {
-    font-size: 24px;
-  }
-
-  .section6 .content.left .title {
-    font-size: 24px;
-  }
-
-  .section7 .content .title {
-    font-size: 24px;
-  }
-
-  .section8 .content .title {
-    font-size: 24px;
-  }
-
   .section1 .content.left .text {
     font-size: 16px;
     line-height: 1.5;
@@ -1369,12 +1323,10 @@ button:focus, button:active {
   }
 
   .section1 .content.right .title {
-    font-size: 24px;
     text-align: left !important;
   }
 
   .section1 .content.right .date {
-    font-size: 24px;
     text-align: left !important;
   }
 
@@ -1438,7 +1390,7 @@ button:focus, button:active {
 
   .section6 .posts .item .middle p.text {
     line-height: 1.5;
-    font-size: 14px;
+    font-size: 16px;
   }
 
   .section6 .content--center {
